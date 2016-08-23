@@ -7,3 +7,5 @@ for file in ~/.dotfiles/{prompt,alias}; do
 done;
 
 unset file
+
+script_dir="$(dirname -- "$(readlink -f -- "$0")")"
