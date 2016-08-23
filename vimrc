@@ -44,5 +44,6 @@ color dracula
 let NERDTreeIgnore=['\.pyc$', '\~$']
 
 " keymap
-nnoremap <F10> : NERDTreeToggle<CR>
+let mapleader=" "
+nnoremap <F12> : NERDTreeToggle<CR>
 nnoremap <leader><space> :nohlsearch<CR>
