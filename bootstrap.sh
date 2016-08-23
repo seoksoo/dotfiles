@@ -15,6 +15,4 @@ for file in {bashrc,vimrc,vim}; do
 done;
 unset file;
 
-source ~/.bashrc
-
 unset linking 
