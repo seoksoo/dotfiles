@@ -3,7 +3,9 @@ if [ -f default ]; then
 fi
 
 for file in ~/.dotfiles/{prompt,alias,local}; do
-    source "$file"
+    if [ -f "$file" ]; then
+        source "$file"
+    fi
 done;
 
 unset file
