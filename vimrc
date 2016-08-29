@@ -20,9 +20,11 @@ syntax on
 set encoding=utf-8
 
 " space & tabs
-set tabstop=4
 set softtabstop=4
+set tabstop=4
+set shiftwidth=4
 set expandtab
+set noexpandtab
 
 " UI config
 set nu
