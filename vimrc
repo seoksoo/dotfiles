@@ -47,5 +47,5 @@ let NERDTreeIgnore=['\.pyc$', '\~$']
 
 " keymap
 let mapleader=" "
-nnoremap <F12> : NERDTreeToggle<CR>
+nnoremap <leader>f : NERDTreeToggle<CR>
 nnoremap <leader><space> :nohlsearch<CR>
