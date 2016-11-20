@@ -42,6 +42,8 @@ set mouse=a
 " color scheme
 color dracula
 
+set noswapfile
+
 " NERD Tree Setting
 let NERDTreeIgnore=['\.pyc$', '\~$']
 

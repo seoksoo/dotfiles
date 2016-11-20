@@ -10,7 +10,7 @@ function linking() {
     ln -s $(pwd)/$1 ~/.$1
 }
 
-for file in {bashrc,vimrc,vim}; do
+for file in {bashrc,vimrc,vim,tmux.conf}; do
     linking $file;
 done;
 unset file;
