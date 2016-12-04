@@ -1,3 +1,8 @@
+if [[ ! $- =~ "i" ]]
+then
+	return;
+fi
+
 if [ -f default ]; then
     source default
 fi
