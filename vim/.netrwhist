@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/usr2/sshong/.vim'
 let g:netrw_dirhist_2='/usr2/sshong/tree/Avante/FirstParty/Components/Perception/LaneMarkerDetector/src'
 let g:netrw_dirhist_3='/usr2/sshong'
+let g:netrw_dirhist_4='/root/.ssh'
