@@ -24,13 +24,14 @@ set softtabstop=4
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set noexpandtab
 
 " UI config
 set nu
 set cursorline
 filetype indent on
 set wildmenu
+set laststatus=2
+set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\
 
 " searching
 set incsearch
@@ -46,6 +47,10 @@ set noswapfile
 
 " NERD Tree Setting
 let NERDTreeIgnore=['\.pyc$', '\~$']
+let NERDTreeShowHidden=1
+
+" ctags
+set tags=./tags
 
 " keymap
 let mapleader=" "
