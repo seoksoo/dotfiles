@@ -18,6 +18,7 @@ call vundle#end()            " required
 syntax on
 
 set encoding=utf-8
+set autochdir
 
 " space & tabs
 set softtabstop=4
@@ -45,12 +46,14 @@ color dracula
 
 set noswapfile
 
+set clipboard=unnamedplus
+
 " NERD Tree Setting
 let NERDTreeIgnore=['\.pyc$', '\~$']
 let NERDTreeShowHidden=1
 
 " ctags
-set tags=./tags
+set tags=./tags,tags;
 
 " keymap
 let mapleader=" "
