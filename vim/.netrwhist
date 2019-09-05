@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/sshong/workspace/dsst/dl-engines/ThirdParty/hdf5'
+let g:netrw_dirhist_2='/home/sshong/workspace/asst2/Avante/FirstParty/Components/Perception/RoadDetectionSegmentation_v2/src/PostProcessor'
+let g:netrw_dirhist_3='/home/sshong/Downloads/qk-assignment-email/Task1'
+let g:netrw_dirhist_4='/home/sshong/workspace/asst/Avante/FirstParty/Components/Perception/TrafficSignLaneDetector/src/Detector/PostProcessor'
