@@ -14,4 +14,3 @@ for file in ~/.dotfiles/{prompt,alias,local}; do
 done;
 
 unset file
-
